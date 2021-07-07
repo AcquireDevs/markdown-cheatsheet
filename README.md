@@ -268,6 +268,7 @@ and clients with  other clients
 output:
 socket.io [^1]   
   
+>**note:** it will not work in github
     
      
 
