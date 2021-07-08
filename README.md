@@ -20,24 +20,24 @@
 |`### head1`|`<h3>head</h3>`|<h3>head</h3> |  
 **all headings input:**
 ```markdown
-######head6
-#####head5
-####head4
-###head3
-##head2
-#head1
+###### head6
+##### head5
+#### head4
+### head3
+## head2
+# head1
 
 ```
 **output**
 
 ---
 
-######head6
-#####head5
-####head4
-###head3
-##head2
-#head1
+###### head6
+##### head5
+#### head4
+### head3
+## head2
+# head1
 
 ---
 ### 2. bold and italic in markdown
