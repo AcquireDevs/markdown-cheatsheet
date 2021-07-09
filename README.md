@@ -79,12 +79,14 @@ in html
 **output:**
   
 markdown:
-:  *this is itlaic para*
-  _this is itlaic para_
-**this is bold**
-__this is bold__
-***this is itlaic and bold***
-___this is itlaic and bold___  
+||
+|---|
+|  *this is itlaic para*|
+| _this is itlaic para_|
+|**this is bold**|
+|__this is bold__|
+|***this is itlaic and bold***|
+|___this is itlaic and bold___  |
 
 html:  
 : <i>this is itlaic para</i>
@@ -127,9 +129,10 @@ in html
 </ol>
 ```
 output:
-1. javascript
-56. json
-28845. nodejs
+|1. javascript|
+|---|
+|2. json|
+|3. nodejs|
 
       
 #### unorderd list:
@@ -150,9 +153,9 @@ in html
 </ul>
 ```
 output:
-: - js
-  - html
-  - electron 
+- js
+- html
+- electron 
 ---
 
 ### Code
@@ -302,8 +305,10 @@ input
 ```markdown
 ~~this is removed~~
 ```
-output:
-: ~~this is removed~~
+
+|output:|
+|---|
+|~~this is removed~~|
 
 ---
 ### task list 
@@ -317,9 +322,6 @@ output:
 - [x] js
 - [ ] css
 - [x] html
-
-
-
 
 
 
