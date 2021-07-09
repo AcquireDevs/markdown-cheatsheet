@@ -86,8 +86,8 @@ __this is bold__
 ***this is itlaic and bold***
 ___this is itlaic and bold___  
 
-html:
- : <i>this is itlaic para</i>
+html:  
+: <i>this is itlaic para</i>
 <b>this is bold para<b>
 <i><b>this is itlaic and bold para</b></i>
 
@@ -127,9 +127,9 @@ in html
 </ol>
 ```
 output:
-: 1. javascript
-  56. json
-  28845. nodejs
+1. javascript
+56. json
+28845. nodejs
 
       
 #### unorderd list:
