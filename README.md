@@ -305,8 +305,10 @@ input
 ```markdown
 ~~this is removed~~
 ```
-output:
-: ~~this is removed~~
+|output:|
+|---|
+|~~this is removed~~|
+
 
 ---
 ### task list 
