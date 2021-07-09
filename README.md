@@ -285,11 +285,16 @@ input
 ```markdown
 title
 : content
-```
-output:
 
-title
-: content
+it will not work in github
+```
+output: 
+
+<dl><dt>title</dt>
+
+<dd>content</dd></dl>
+
+
 
 ---
 ### strikeline
