@@ -78,20 +78,20 @@ in html
 
 **output:**
   
-markdown:
-||
+|markdown:|
 |---|
 |  *this is itlaic para*|
-| _this is itlaic para_|
+|_this is itlaic para_|
 |**this is bold**|
 |__this is bold__|
 |***this is itlaic and bold***|
 |___this is itlaic and bold___  |
 
-html:  
-: <i>this is itlaic para</i>
-<b>this is bold para<b>
-<i><b>this is itlaic and bold para</b></i>
+|html:|
+|---|
+|<i>this is itlaic para</i>|
+|<b>this is bold para<b>|
+|<i><b>this is itlaic and bold para</b></i>|
 
 
 
@@ -129,10 +129,9 @@ in html
 </ol>
 ```
 output:
-|1. javascript|
-|---|
-|2. json|
-|3. nodejs|
+1. javascript
+2. json
+3. nodejs
 
       
 #### unorderd list:
@@ -203,7 +202,8 @@ output:
 [github](https://github.com/AcquireDevs/AcquireDevs.git)
 ```
 output:
-: [github](https://github.com/AcquireDevs/AcquireDevs.git)
+|[github](https://github.com/AcquireDevs/AcquireDevs.git)|
+|---|
 
 ### Table
 ```markdown
@@ -305,10 +305,8 @@ input
 ```markdown
 ~~this is removed~~
 ```
-
-|output:|
-|---|
-|~~this is removed~~|
+output:
+: ~~this is removed~~
 
 ---
 ### task list 
@@ -322,7 +320,6 @@ output:
 - [x] js
 - [ ] css
 - [x] html
-
 
 
 
